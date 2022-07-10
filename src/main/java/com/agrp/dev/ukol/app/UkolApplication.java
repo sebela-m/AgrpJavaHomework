@@ -14,7 +14,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan(basePackages = {
-		"com.agrp.dev.ukol.app",
 		"com.agrp.dev.ukol.controllers",
 		"com.agrp.dev.ukol.services"		
 	}

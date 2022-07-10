@@ -36,19 +36,16 @@ import org.json.JSONObject;
 public class DocumentControllerTest extends AbstractIntegrationTest {
 
     @Autowired
-    TestRestTemplate restTemplate;
+    private TestRestTemplate restTemplate;
 
     @Autowired
-    DocumentRepository documentRepository;
+    private DocumentRepository documentRepository;
 
     @Autowired
-    UserRepository userRepository;
-    
-    @Autowired
-	DocumentUserViewRepository documentUserViewRepository;
-    
+    private UserRepository userRepository;
+        
     @LocalServerPort
-    int randomServerPort;
+    private int randomServerPort;
     
     @Before
     public void setup() {
